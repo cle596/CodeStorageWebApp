@@ -1,9 +1,31 @@
 #title {
   font-family: 'Ubuntu', sans-serif;
   font-size: 40px;
+  padding: 10px;
 }
 
 #login {
   font-family: 'Ubuntu', sans-serif;
   font-size: 20px;
+  padding: 10px;
+}
+
+#sampleButton {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+#code {
+  padding: 10px;
+}
+
+#codetext {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 13px;
+  width: 70%;
+  height: 50%;
+  resize: none;
+  padding: 10px;
 }
