@@ -1,4 +1,9 @@
-body {
-  font-family: arial;
+#title {
+  font-family: 'Ubuntu', sans-serif;
   font-size: 40px;
+}
+
+#login {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
 }
