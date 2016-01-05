@@ -4,6 +4,6 @@ $("#sampleButton").click(function(){
     url: "sample"
   })
   .done(function(data){
-    $("#codetext").html(data);
+    $("#codetext").text(data);
   });
 });
