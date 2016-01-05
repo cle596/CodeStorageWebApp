@@ -1,10 +1,10 @@
 $("#loginButton").click(function(){
   $.ajax({
     method: "GET",
-    url: "user/chan9han"
+    url: "login"
   })
   .done(function(data){
-    $("#codetext").text(data);
+    $("#code").html(data);
   });
 });
 
@@ -14,6 +14,6 @@ $("#sampleButton").click(function(){
     url: "sample"
   })
   .done(function(data){
-    $("#codetext").text(data);
+    $("#code").html(data);
   });
 });

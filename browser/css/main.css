@@ -1,3 +1,7 @@
+#panel {
+
+}
+
 #title {
   font-family: 'Ubuntu', sans-serif;
   font-size: 40px;
@@ -17,6 +21,7 @@
   font-size: 15px;
   border: none;
   border-radius: 5px;
+  background-color: #e1e1e1;
 }
 
 #loginButton:hover {
@@ -32,6 +37,7 @@
   font-size: 15px;
   border: none;
   border-radius: 5px;
+  background-color: #e1e1e1;
 }
 
 #sampleButton:hover {
