@@ -1,12 +1,11 @@
 #panel {
-
+  display: inline;
 }
 
 #title {
   font-family: 'Ubuntu', sans-serif;
   font-size: 40px;
   padding: 10px;
-  display: inline;
 }
 
 #login {
