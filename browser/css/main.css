@@ -12,6 +12,17 @@
   display: inline;
 }
 
+#loginButton {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+#loginButton:hover {
+  background-color: #a6d6cd;
+}
+
 #sample {
   display: inline;
 }
@@ -21,6 +32,10 @@
   font-size: 15px;
   border: none;
   border-radius: 5px;
+}
+
+#sampleButton:hover {
+  background-color: #a6d6cd;
 }
 
 #code {
