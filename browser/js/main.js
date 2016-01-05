@@ -14,6 +14,8 @@ $("#sampleButton").click(function(){
     url: "sample"
   })
   .done(function(data){
-    $("#code").html(data);
+    var pre = "<pre id='codetext' style='font-family: 'Ubuntu', sans-serif;'font-size': 13px;'></pre>";
+    $("#code").html(pre);
+    $("#codetext").text(data);
   });
 });
